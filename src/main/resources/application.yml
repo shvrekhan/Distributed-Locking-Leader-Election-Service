@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+coordinator:
+  session:
+    default-ttl-ms: 5000
+  lock:
+    max-queue-size: 100
+  failure-detection:
+    interval-ms: 200
